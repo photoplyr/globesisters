@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:globesisters/pages/post_list_page.dart';
 import 'package:globesisters/pages/post_page.dart';
 import 'package:globesisters/pages/profile_page.dart';
 import 'package:globesisters/pages/timeline_page.dart';
@@ -39,7 +40,7 @@ class _LandingPageState extends State<LandingPage> with TickerProviderStateMixin
           // ignore: prefer_const_literals_to_create_immutables
           children: <Widget>[
             const TimelinePage(),
-            const PostPage(),
+            const PostListPage(),
             const ProfilePage(),
           ],
         ),
